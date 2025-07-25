@@ -1,0 +1,36 @@
+{
+  "name": "signalk-10axis-ros-imu",
+  "version": "1.0.0",
+  "description": "SignalK server plugin for Waveshare 10-axis ROS IMU sensors",
+  "homepage": "https://github.com/arancino1/signalk-10axis-ros-imu#readme",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-hardware",
+    "signalk-category-utility",
+    "gyro",
+    "magnetometer",
+    "IMU",
+    "heading",
+    "attitude",
+    "10-axis",
+    "signalk",
+    "waveshare",
+    "ROS"
+  ],
+  "signalk-plugin-enabled-by-default": false,
+  "signalk": {
+    "appIcon": "./assets/icons/icon-72x72.png",
+    "displayName": "SignalK 10-axis IMU sensor"
+  },
+  "license": "MIT",
+  "author": "px@dp4.mt",
+  "type": "commonjs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+hhttps://github.com/arancino1/signalk-10axis-ros-imu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

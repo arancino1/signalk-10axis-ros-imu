@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "rosDevices": {
+      "type": "array",
+      "title": "Waveshare 10-axis ROS IMU Sensors",
+      "items": {
+        "type": "object",
+        "required": [
+          "devName",
+          "devRefresh"
+        ],
+        "properties": {
+          "devName": {
+            "type": "string",
+            "title": "USB device name",
+            "description": "e.g. /dev/ttyUSB0 or COM3 (Windows)",
+            "default": "/dev/ttyUSB0"
+          },
+          "devRefresh": {
+            "type": "number",
+            "title": "Update rate (Hz)",
+            "description": "deltas per second (1..10)",
+            "default": 1
+          },
+          "devHdgOffset": {
+            "type": "number",
+            "title": "Heading Offset",
+            "description": "heading offset in degrees (-180.0 to 180.0)",
+            "default": 0.0
+          }
+        }
+      }
+    }
+  }
+}
